@@ -1,23 +1,24 @@
 <template>
-    <div id="people-container">
-        <div class="people-card">
-            <img src="../assets/img/Luke_Skywalker.jpg" alt="Luke Skywalker">
+    <div id="starships-container">
+        <div class="starships-card">
+            <img src="../assets/img/DeathStar.jpg" alt="Death Star">
             <div class="card-description">
                 <div>
-                    <router-link to="/luke">
-                    <button class="people-info more-info">More info</button>
+                    <p class="people-name"></p>
+                    <router-link to="/deathstar">
+                        <button class="people-info" @click="getPeople">More info</button>
                     </router-link>
                     <button class="people-info more-info">Favorite</button>
                 </div>
             </div>
         </div>
         
-        <div class="people-card">
-            <img src="../assets/img/Leia_Organa.jpg" alt="Leia Organa">
+        <div class="starships-card">
+            <img src="../assets/img/StarDestroyer.jpg" alt="Star Destroyer">
             <div class="card-description">
                 <div>
                     <p class="people-name"></p>
-                    <router-link to="/leia">
+                    <router-link to="/stardestroyer">
                         <button class="people-info" @click="getPeople">More info</button>
                     </router-link>
                     <button class="people-info more-info">Favorite</button>
@@ -25,12 +26,12 @@
             </div>
         </div>
 
-        <div class="people-card">
-            <img src="../assets/img/Han_Solo.jpg" alt="Han Solo">
+        <div class="starships-card">
+            <img src="../assets/img/TieAdvancedx1.jpg" alt="TIE Advanced x1">
             <div class="card-description">
                 <div>
                     <p class="people-name"></p>
-                    <router-link to="/hansolo">
+                    <router-link to="/tieadvancedx1">
                         <button class="people-info" @click="getPeople">More info</button>
                     </router-link>
                     <button class="people-info more-info">Favorite</button>
@@ -38,12 +39,12 @@
             </div>
         </div>
 
-        <div class="people-card">
-            <img src="../assets/img/Chewbacca.jpg" alt="Chewbacca">
+        <div class="starships-card">
+            <img src="../assets/img/XWing.jpg" alt="X-wing">
             <div class="card-description">
                 <div>
                     <p class="people-name"></p>
-                    <router-link to="/chewbacca ">
+                    <router-link to="/xwing">
                         <button class="people-info" @click="getPeople">More info</button>
                     </router-link>
                     <button class="people-info more-info">Favorite</button>
@@ -51,12 +52,12 @@
             </div>
         </div>
 
-        <div class="people-card">
-            <img src="../assets/img/YOda.jpg" alt="Yoda">
+        <div class="starships-card">
+            <img src="../assets/img/MillenniumFalcon.jpg" alt="Millennium Falcon">
             <div class="card-description">
                 <div>
                     <p class="people-name"></p>
-                    <router-link to="/yoda">
+                    <router-link to="/millenniumfalcon">
                         <button class="people-info" @click="getPeople">More info</button>
                     </router-link>
                     <button class="people-info more-info">Favorite</button>
@@ -64,12 +65,25 @@
             </div>
         </div>
 
-        <div class="people-card">
-            <img src="../assets/img/Obi_Wan_Kenobi.jpg" alt="Obi-Wan Kenobi">
+        <div class="starships-card">
+            <img src="../assets/img/Slave1.jpg" alt="Slave 1">
             <div class="card-description">
                 <div>
                     <p class="people-name"></p>
-                    <router-link to="/kenobi">
+                    <router-link to="/slave1">
+                        <button class="people-info" @click="getPeople">More info</button>
+                    </router-link>
+                    <button class="people-info more-info">Favorite</button>
+                </div>
+            </div>
+        </div>  
+
+        <div class="starships-card">
+            <img src="../assets/img/ImperialShuttle.jpg" alt="Imperial Shuttle">
+            <div class="card-description">
+                <div>
+                    <p class="people-name"></p>
+                    <router-link to="/imperialshuttle">
                         <button class="people-info" @click="getPeople">More info</button>
                     </router-link>
                     <button class="people-info more-info">Favorite</button>
@@ -77,12 +91,12 @@
             </div>
         </div>
 
-        <div class="people-card">
-            <img src="../assets/img/Darth_Vader.jpg" alt="Darth Vader">
+        <div class="starships-card">
+            <img src="../assets/img/YWing.jpg" alt="Y-Wing">
             <div class="card-description">
                 <div>
                     <p class="people-name"></p>
-                    <router-link to="/darthvader">
+                    <router-link to="/ywing">
                         <button class="people-info" @click="getPeople">More info</button>
                     </router-link>
                     <button class="people-info more-info">Favorite</button>
@@ -90,25 +104,12 @@
             </div>
         </div>
 
-        <div class="people-card">
-            <img src="../assets/img/R2D2.jpg" alt="R2-D2">
+        <div class="starships-card">
+            <img src="../assets/img/RepublicCruiser.jpg" alt="Republic Cruiser">
             <div class="card-description">
                 <div>
                     <p class="people-name"></p>
-                    <router-link to="/r2d2">
-                        <button class="people-info" @click="getPeople">More info</button>
-                    </router-link>
-                    <button class="people-info more-info">Favorite</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="people-card">
-            <img src="../assets/img/C-3PO.jpg" alt="C-3PO">
-            <div class="card-description">
-                <div>
-                    <p class="people-name"></p>
-                    <router-link to="/c3po">
+                    <router-link to="/republiccruiser">
                         <button class="people-info" @click="getPeople">More info</button>
                     </router-link>
                     <button class="people-info more-info">Favorite</button>
@@ -120,13 +121,13 @@
 
 <script>
 export default {
-    name: "People",
+    name: "Starships",
     
 }
 </script>
 
 <style scoped>
-    #people-container {
+    #starships-container {
         max-width: 1280px;
         display: grid;
         grid-template-rows: 400px 400px 400px;
@@ -138,7 +139,7 @@ export default {
         justify-content: center;
     }
 
-    .people-card {
+    .starships-card {
         height: 300px;
         border: 5px solid #FFC107;
         border-radius: 10px;

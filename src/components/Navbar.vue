@@ -3,7 +3,8 @@
         <div id="nav">
             <router-link to="/" class="links">Home</router-link>
             <router-link to="/people" class="links">Characters</router-link>
-            <router-link to="/Starships" class="links">Starships</router-link>
+            <router-link to="/starships" class="links">Starships</router-link>
+            <router-link to="/favorites" class="links">Favorites</router-link>
         </div>
     </div>
 </template>

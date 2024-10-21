@@ -16,6 +16,7 @@
 </template>
 
 <script>
+import favorites from '../store/favorites';
 export default {
     name: "R2D2",
     data() {
@@ -31,7 +32,9 @@ export default {
             species: null,
             vehicles: null,
             starships: null,
-        }
+        },
+
+        favorites = [];
     },
     methods: {
         getPerson() {
@@ -49,8 +52,14 @@ export default {
                     this.species = data.species;
                     this.vehicles = data.vehicles;
                     this.starships = data.starships;
-                })
+                }
+            )
+        },
+
+        getFavorites() {
+                
         }
+        
     },
     mounted() {
         this.getPerson();
@@ -73,12 +82,12 @@ export default {
 
     h1 {
         font-family: star-wars-logo;
-        color: yellow;
+        color: #FFC107;
         text-align: center;
     }
 
     .more-info {
-        background-color: yellow;
+        background-color: #FFC107;
         color: black;
         padding: 10px;
         border-radius: 10px;

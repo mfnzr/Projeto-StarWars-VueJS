@@ -73,12 +73,12 @@ export default {
 
     h1 {
         font-family: star-wars-logo;
-        color: yellow;
+        color: #FFC107;
         text-align: center;
     }
 
     .more-info {
-        background-color: yellow;
+        background-color: #FFC107;
         color: black;
         padding: 10px;
         border-radius: 10px;
