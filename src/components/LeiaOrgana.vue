@@ -4,14 +4,16 @@
         <img src="../assets/img/Leia_banner.jpg" alt="Leia Organa">
         <div class="more-info">
             <p>Leia Organa is a fictional character in the Star Wars franchise. She is the younger sister of Luke Skywalker and the wife of Han Solo.</p>
-            <p>Name: {{ name }}</p>
-            <p>Height: {{ height }}</p>
-            <p>Mass: {{ mass }}</p>
-            <p>Hair color: {{ hairColor }}</p>
-            <p>Skin color: {{ skinColor }}</p>
-            <p>Eye color: {{ eyeColor }}</p>
-            <p>Birthday year: {{ birthYear }}</p>
-            <p>Gender: {{ gender }}</p>
+            <ul>
+                <li>Height: {{ height }}</li>
+                <li>Mass: {{ mass }}</li>
+                <li>Hair color: {{ hairColor }}</li>
+                <li>Skin color: {{ skinColor }}</li>
+                <li>Eye color: {{ eyeColor }}</li>
+                <li>Birthday year: {{ birthYear }}</li>
+                <li>Gender: {{ gender }}</li>
+                <li>Name: {{ name }}</li>
+            </ul>
         </div>
     </div>
 </template>

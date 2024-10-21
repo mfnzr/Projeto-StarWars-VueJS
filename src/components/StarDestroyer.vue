@@ -4,19 +4,21 @@
         <img src="../assets/img/StarDestroyer_banner.jpg" alt="Star Destroyer">
         <div class="more-info">
             <p>Star Destroyers are massive, wedge-shaped warships used by the Galactic Empire in the Star Wars universe. They serve as the backbone of the Imperial Navy, known for their formidable size, firepower, and ability to command fleets.</p>
-            <p>Name: {{ name }}</p>
-            <p>Model: {{ model }}</p>
-            <p>manufacturer: {{ manufacturer }}</p>
-            <p>Cost in credits: {{ costInCredits }}</p>
-            <p>Landing legs: {{ landingLegs }}</p>
-            <p>Length: {{ length }}</p>
-            <p>Diameter: {{ diameter }}</p>
-            <p>Max atmosphering speed: {{ maxAtmospheringSpeed }}</p>
-            <p>Crew: {{ crew }}</p>
-            <p>Passengers: {{ passengers }}</p>
-            <p>Cargo capacity: {{ cargoCapacity }}</p>
-            <p>Starship class: {{ starshipClass }}</p>
-            <p>Pilots: {{ pilots }}</p>
+            <ul>
+                <li>Name: {{ name }}</li>
+                <li>Model: {{ model }}</li>
+                <li>manufacturer: {{ manufacturer }}</li>
+                <li>Cost in credits: {{ costInCredits }}</li>
+                <li>Landing legs: {{ landingLegs }}</li>
+                <li>Length: {{ length }}</li>
+                <li>Diameter: {{ diameter }}</li>
+                <li>Max atmosphering speed: {{ maxAtmospheringSpeed }}</li>
+                <li>Crew: {{ crew }}</li>
+                <li>Passengers: {{ passengers }}</li>
+                <li>Cargo capacity: {{ cargoCapacity }}</li>
+                <li>Starship class: {{ starshipClass }}</li>
+                <li>Pilots: {{ pilots }}</li>
+            </ul>
         </div>
     </div>
 </template>

@@ -4,14 +4,16 @@
         <img src="../assets/img/Kenobi_banner.png" alt="Obi wan Kenobi">
         <div class="more-info">
             <p>Obi-Wan Kenobi is a fictional character in the Star Wars franchise. He is the main protagonist of the original Star Wars trilogy, and the first Star Wars film.</p>
-            <p>Name: {{ name }}</p>
-            <p>Height: {{ height }}</p>
-            <p>Mass: {{ mass }}</p>
-            <p>Hair color: {{ hairColor }}</p>
-            <p>Skin color: {{ skinColor }}</p>
-            <p>Eye color: {{ eyeColor }}</p>
-            <p>Birthday year: {{ birthYear }}</p>
-            <p>Gender: {{ gender }}</p>
+            <ul>
+                <li>Height: {{ height }}</li>
+                <li>Mass: {{ mass }}</li>
+                <li>Hair color: {{ hairColor }}</li>
+                <li>Skin color: {{ skinColor }}</li>
+                <li>Eye color: {{ eyeColor }}</li>
+                <li>Birthday year: {{ birthYear }}</li>
+                <li>Gender: {{ gender }}</li>
+                <li>Name: {{ name }}</li>
+            </ul>
         </div>
     </div>
 </template>

@@ -4,14 +4,16 @@
         <img src="../assets/img/Chewbacca_banner.jpeg" alt="Chewbacca">
         <div class="more-info">
             <p>Chewbacca is a fictional character in the Star Wars franchise. He is the protagonist of the original Star Wars trilogy, and the first Star Wars film.</p>
-            <p>Nome: {{ name }}</p>
-            <p>Altura: {{ height }}</p>
-            <p>Massa: {{ mass }}</p>
-            <p>Cor de pele: {{ hairColor }}</p>
-            <p>Cor de pele: {{ skinColor }}</p>
-            <p>Cor de olho: {{ eyeColor }}</p>
-            <p>Ano de nascimento: {{ birthYear }}</p>
-            <p>Sexo: {{ gender }}</p>
+            <ul>
+                <li>Height: {{ height }}</li>
+                <li>Mass: {{ mass }}</li>
+                <li>Hair color: {{ hairColor }}</li>
+                <li>Skin color: {{ skinColor }}</li>
+                <li>Eye color: {{ eyeColor }}</li>
+                <li>Birthday year: {{ birthYear }}</li>
+                <li>Gender: {{ gender }}</li>
+                <li>Name: {{ name }}</li>
+            </ul>
         </div>
     </div>
 </template>

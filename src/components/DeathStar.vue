@@ -4,19 +4,21 @@
         <img src="../assets/img/DeathStar_banner.jpg" alt="Death Star">
         <div class="more-info">
             <p>The Death Star is a massive space station and superweapon featured in the Star Wars universe. Created by the Galactic Empire, it has the capability to destroy entire planets with its powerful superlaser. The first Death Star appears in Episode IV: A New Hope and is destroyed by the Rebel Alliance during the Battle of Yavin. A second, larger Death Star is featured in Episode VI: Return of the Jedi, which is also destroyed, marking a significant victory for the Rebels. Its design symbolizes the Empire's oppressive control and its reliance on fear to maintain power.</p>
-            <p>Name: {{ name }}</p>
-            <p>Model: {{ model }}</p>
-            <p>manufacturer: {{ manufacturer }}</p>
-            <p>Cost in credits: {{ costInCredits }}</p>
-            <p>Landing legs: {{ landingLegs }}</p>
-            <p>Length: {{ length }}</p>
-            <p>Diameter: {{ diameter }}</p>
-            <p>Max atmosphering speed: {{ maxAtmospheringSpeed }}</p>
-            <p>Crew: {{ crew }}</p>
-            <p>Passengers: {{ passengers }}</p>
-            <p>Cargo capacity: {{ cargoCapacity }}</p>
-            <p>Starship class: {{ starshipClass }}</p>
-            <p>Pilots: {{ pilots }}</p>
+            <ul>
+                <li>Name: {{ name }}</li>
+                <li>Model: {{ model }}</li>
+                <li>manufacturer: {{ manufacturer }}</li>
+                <li>Cost in credits: {{ costInCredits }}</li>
+                <li>Landing legs: {{ landingLegs }}</li>
+                <li>Length: {{ length }}</li>
+                <li>Diameter: {{ diameter }}</li>
+                <li>Max atmosphering speed: {{ maxAtmospheringSpeed }}</li>
+                <li>Crew: {{ crew }}</li>
+                <li>Passengers: {{ passengers }}</li>
+                <li>Cargo capacity: {{ cargoCapacity }}</li>
+                <li>Starship class: {{ starshipClass }}</li>
+                <li>Pilots: {{ pilots }}</li>
+            </ul>
         </div>
     </div>
 </template>

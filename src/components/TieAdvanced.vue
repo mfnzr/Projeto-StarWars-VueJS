@@ -4,19 +4,21 @@
         <img src="../assets/img/TieAdvanced_banner.jpg" alt="Tie Advanced x1">
         <div class="more-info">
             <p>The TIE Advanced x1 is a specialized starfighter in the Star Wars universe, famously piloted by Darth Vader during the Battle of Yavin in Episode IV: A New Hope. Unlike standard TIE Fighters, the TIE Advanced x1 features advanced shields, hyperdrive capabilities, and a more durable frame</p>
-            <p>Name: {{ name }}</p>
-            <p>Model: {{ model }}</p>
-            <p>manufacturer: {{ manufacturer }}</p>
-            <p>Cost in credits: {{ costInCredits }}</p>
-            <p>Landing legs: {{ landingLegs }}</p>
-            <p>Length: {{ length }}</p>
-            <p>Diameter: {{ diameter }}</p>
-            <p>Max atmosphering speed: {{ maxAtmospheringSpeed }}</p>
-            <p>Crew: {{ crew }}</p>
-            <p>Passengers: {{ passengers }}</p>
-            <p>Cargo capacity: {{ cargoCapacity }}</p>
-            <p>Starship class: {{ starshipClass }}</p>
-            <p>Pilots: {{ pilots }}</p>
+            <ul>
+                <li>Name: {{ name }}</li>
+                <li>Model: {{ model }}</li>
+                <li>manufacturer: {{ manufacturer }}</li>
+                <li>Cost in credits: {{ costInCredits }}</li>
+                <li>Landing legs: {{ landingLegs }}</li>
+                <li>Length: {{ length }}</li>
+                <li>Diameter: {{ diameter }}</li>
+                <li>Max atmosphering speed: {{ maxAtmospheringSpeed }}</li>
+                <li>Crew: {{ crew }}</li>
+                <li>Passengers: {{ passengers }}</li>
+                <li>Cargo capacity: {{ cargoCapacity }}</li>
+                <li>Starship class: {{ starshipClass }}</li>
+                <li>Pilots: {{ pilots }}</li>
+            </ul>
         </div>
     </div>
 </template>

@@ -4,19 +4,21 @@
         <img src="../assets/img/MillenniumFalcon_banner.jpg" alt="Millennium Falcon">
         <div class="more-info">
             <p>The Millennium Falcon is a legendary starship in the Star Wars universe, piloted by Han Solo and his co-pilot, Chewbacca. Known for its distinctive, disk-shaped design, the Falcon is a heavily modified YT-1300 Corellian freighter. Despite its rugged appearance, it is one of the fastest ships in the galaxy, equipped with powerful weapons, advanced shielding, and a hyperdrive. The Millennium Falcon played a key role in many pivotal events, including the destruction of both Death Stars. Its speed, versatility, and charm make it one of the most iconic ships in Star Wars history.</p>           
-            <p>Name: {{ name }}</p>
-            <p>Model: {{ model }}</p>
-            <p>manufacturer: {{ manufacturer }}</p>
-            <p>Cost in credits: {{ costInCredits }}</p>
-            <p>Landing legs: {{ landingLegs }}</p>
-            <p>Length: {{ length }}</p>
-            <p>Diameter: {{ diameter }}</p>
-            <p>Max atmosphering speed: {{ maxAtmospheringSpeed }}</p>
-            <p>Crew: {{ crew }}</p>
-            <p>Passengers: {{ passengers }}</p>
-            <p>Cargo capacity: {{ cargoCapacity }}</p>
-            <p>Starship class: {{ starshipClass }}</p>
-            <p>Pilots: {{ pilots }}</p>
+            <ul>
+                <li>Name: {{ name }}</li>
+                <li>Model: {{ model }}</li>
+                <li>manufacturer: {{ manufacturer }}</li>
+                <li>Cost in credits: {{ costInCredits }}</li>
+                <li>Landing legs: {{ landingLegs }}</li>
+                <li>Length: {{ length }}</li>
+                <li>Diameter: {{ diameter }}</li>
+                <li>Max atmosphering speed: {{ maxAtmospheringSpeed }}</li>
+                <li>Crew: {{ crew }}</li>
+                <li>Passengers: {{ passengers }}</li>
+                <li>Cargo capacity: {{ cargoCapacity }}</li>
+                <li>Starship class: {{ starshipClass }}</li>
+                <li>Pilots: {{ pilots }}</li>
+            </ul>
         </div>
     </div>
 </template>

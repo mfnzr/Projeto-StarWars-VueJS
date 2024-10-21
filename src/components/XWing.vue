@@ -4,19 +4,21 @@
         <img src="../assets/img/XWing_banner.png" alt="x-Wing">
         <div class="more-info">
             <p>The X-wing is a versatile starfighter used by the Rebel Alliance and later the New Republic in the Star Wars universe. Known for its distinctive S-foils that open into an "X" shape during combat, the X-wing is equipped with laser cannons, proton torpedoes, and deflector shields. It balances speed, firepower, and maneuverability, making it ideal for both space and atmospheric battles. The X-wing became famous for its role in the destruction of the first Death Star during the Battle of Yavin, with Luke Skywalker piloting an X-wing in this crucial victory for the Rebels.</p>
-            <p>Name: {{ name }}</p>
-            <p>Model: {{ model }}</p>
-            <p>manufacturer: {{ manufacturer }}</p>
-            <p>Cost in credits: {{ costInCredits }}</p>
-            <p>Landing legs: {{ landingLegs }}</p>
-            <p>Length: {{ length }}</p>
-            <p>Diameter: {{ diameter }}</p>
-            <p>Max atmosphering speed: {{ maxAtmospheringSpeed }}</p>
-            <p>Crew: {{ crew }}</p>
-            <p>Passengers: {{ passengers }}</p>
-            <p>Cargo capacity: {{ cargoCapacity }}</p>
-            <p>Starship class: {{ starshipClass }}</p>
-            <p>Pilots: {{ pilots }}</p>
+            <ul>
+                <li>Name: {{ name }}</li>
+                <li>Model: {{ model }}</li>
+                <li>manufacturer: {{ manufacturer }}</li>
+                <li>Cost in credits: {{ costInCredits }}</li>
+                <li>Landing legs: {{ landingLegs }}</li>
+                <li>Length: {{ length }}</li>
+                <li>Diameter: {{ diameter }}</li>
+                <li>Max atmosphering speed: {{ maxAtmospheringSpeed }}</li>
+                <li>Crew: {{ crew }}</li>
+                <li>Passengers: {{ passengers }}</li>
+                <li>Cargo capacity: {{ cargoCapacity }}</li>
+                <li>Starship class: {{ starshipClass }}</li>
+                <li>Pilots: {{ pilots }}</li>
+            </ul>
         </div>
     </div>
 </template>
